@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- use one of these for log in: george.bluth@reqres.in janet.weaver@reqres.in emma.wong@reqres.in and any password -->
         <!-- using v-model to update temp storage of what's entered -->
         <input v-model="user.user_email" placeholder="email" ref="entered_email">
         <input v-model="user.user_pw" placeholder="Password">

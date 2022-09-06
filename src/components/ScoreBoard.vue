@@ -10,7 +10,7 @@
 
 <script>
 
-
+// i could not get the scoreboard to dynamically update value using cookies.get so emitted value from component instead.
     export default {
         methods: {
             update_win_scoreboard(ii) {
@@ -27,8 +27,8 @@
         data() {
             return {
                 Score_count:{
-                    wins: "",
-                    loss: ""
+                    wins: 0,
+                    loss: 0
                 } 
             }
         },

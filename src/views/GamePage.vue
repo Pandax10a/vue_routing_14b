@@ -20,3 +20,5 @@ import ScoreBoard from '@/components/ScoreBoard.vue'
 <style scoped>
 
 </style>
+
+/* use one of these for log in: george.bluth@reqres.in janet.weaver@reqres.in emma.wong@reqres.in and any password */
